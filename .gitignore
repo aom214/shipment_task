@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Coverage output
+coverage/
+
+# Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# Debug
+*.swp
+*.swo
+
+# PM2 process files
+pids/
+*.pid
+*.seed
+
+# Optional: MongoDB dump files
+dump/
+*.gz
+*.archive
+
+# Optional: Test cache
+jest-cache/
