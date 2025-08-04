@@ -21,8 +21,8 @@ app.use(express.json());
 //If sending data from HTML forms
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/api/v1", router);
-const port = 8080;
+app.use("/", router);
+const port = 3000;
 
 app.listen(port, () => console.log(`Server running on mode on port ${port}`));
 app.use(handleError);
